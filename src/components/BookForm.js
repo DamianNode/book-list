@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { BookContext } from '../contexts/BookContext';
 
 const BookForm = () => {
+    const { addBook, removeBook } = useContext(BookContext);
     return (
 
     )
